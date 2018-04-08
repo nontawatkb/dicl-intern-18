@@ -12,7 +12,57 @@
 
 คำตอบ:
 ```
-?
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class Pjtest {
+    public static void main(String args[]){ 
+    
+    	JSONParser parser = new JSONParser();
+        
+        try {
+        JSONArray data = (JSONArray) parser.parse(new FileReader("C:\\Users\\nonta\\Desktop\\workshop\\dicl-intern-18\\data.json"));  
+            
+    double total=0;
+    ArrayList score = new ArrayList();
+      
+    for (Object o : data){
+    JSONObject person = (JSONObject) o;   
+    long s = (long) person.get("score");
+    total+=s;  
+  }
+    System.out.println("1.1 : "+total/data.size()); 
+    System.out.println("\n1.2:"); 
+    
+    for (Object o : data){
+    JSONObject person = (JSONObject) o;   
+    long s = (long) person.get("score");
+    String n = (String) person.get("name");
+    String g = (String) person.get("grade");
+    if(s > 70){    
+    System.out.println("Name : "+ n +"\tGrade : "+g +"\tScore : "+s);
+    }
+    score.add(s);
+  }
+    Collections.sort(score);
+    System.out.println("\n1.3");
+    System.out.println("Min : "+score.get(0) +" Max : "+score.get(score.size()-1) );
+    
+        }
+        catch(FileNotFoundException fe){
+            fe.printStackTrace();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
+}
 ```
 
 ## 2. Create Simple Mobile Application
