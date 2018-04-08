@@ -1,0 +1,73 @@
+[
+    {
+            "id": 0,
+            "name": "The Shawshank Redemption",
+            "year": "1994",
+            "runtime": "142",
+            "director": "Frank Darabont",
+            "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
+            "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Inception",
+            "year": "2010",
+            "runtime": "148",
+            "director": "Christopher Nolan",
+            "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
+            "plot": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Moneyball",
+            "year": "2011",
+            "runtime": "133",
+            "director": "Bennett Miller",
+            "actors": "Brad Pitt, Jonah Hill, Philip Seymour Hoffman, Robin Wright",
+            "plot": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_SX300.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Apocalypto",
+            "year": "2006",
+            "runtime": "139",
+            "director": "Mel Gibson",
+            "actors": "Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead",
+            "plot": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Apocalypto",
+            "year": "2006",
+            "runtime": "139",
+            "director": "Mel Gibson",
+            "actors": "Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead",
+            "plot": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTM1NjYyNTY5OV5BMl5BanBnXkFtZTcwMjgwNTMzMQ@@._V1_SX300.jpg"
+        },
+        {
+            "id": 5,
+            "name": "The Big Short",
+            "year": "2015",
+            "runtime": "130",
+            "director": "Adam McKay",
+            "actors": "Ryan Gosling, Rudy Eisenzopf, Casey Groves, Charlie Talbert",
+            "plot": "Four denizens in the world of high-finance predict the credit and housing bubble collapse of the mid-2000s, and decide to take on the big banks for their greed and lack of foresight.",
+            "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Pirates of the Caribbean: On Stranger Tides",
+            "year": "2011",
+            "runtime": "136",
+            "director": "Rob Marshall",
+            "actors": "Johnny Depp, Penélope Cruz, Geoffrey Rush, Ian McShane",
+            "plot": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+            "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMjE5MjkwODI3Nl5BMl5BanBnXkFtZTcwNjcwMDk4NA@@._V1_SX300.jpg"
+        }
+    
+    ]
